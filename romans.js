@@ -223,7 +223,8 @@ const greaterThan9 = function(num, obj) {
 
 if (!String.prototype.repeat) {
   String.prototype.repeat = function(count) {
-    'use strict';
+    //trying to use double quotes in a string to check linter rules work as expected
+    "use strict";
     if (this == null) {
       throw new TypeError('can\'t convert ' + this + ' to object');
     }
