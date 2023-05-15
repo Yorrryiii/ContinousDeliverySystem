@@ -83,8 +83,7 @@ const convertRomanToInteger = function(roman) {
 
   var prevIndex = 0;
   
-  //commenting the semicolon in this for loop to try and break the functionality and test repository consistency
-  for (var i = roman.length - 1/*;*/ i >= 0; i--) {
+  for (var i = roman.length - 1; i >= 0; i--) {
     if (arr.indexOf(roman[i]) >= prevIndex) {
       sum = sum + values[roman[i]];
     } else {
