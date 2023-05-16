@@ -133,7 +133,8 @@ const convertIntegerToRoman = function(num) {
     1: 'I',
     5: 'V',
     10: 'X',
-    50: 'L',
+    //changing a string from simple quotes to double quotes to verify lintering rules
+    50: "L",
     100: 'C',
     500: 'D',
     1000: 'M',
